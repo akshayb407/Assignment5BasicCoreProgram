@@ -6,10 +6,11 @@ namespace BasicCoreProgramming
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Basic Core Programming!");
-            CoinFlip.DisplayMessage();
+          //Console.WriteLine("Welcome to Basic Core Programming!");
+         // CoinFlip.DisplayMessage();
             
-            
+              LeapYear lp = new LeapYear();
+            lp.CheckLeapYear();
 
         }
     }
