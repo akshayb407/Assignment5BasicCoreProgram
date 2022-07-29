@@ -12,11 +12,14 @@ namespace BasicCoreProgramming
             // LeapYear lp = new LeapYear();
             // lp.CheckLeapYear();
 
-          //PowerOf2 p2 = new PowerOf2();
-          //p2.powerOf2();
+            //PowerOf2 p2 = new PowerOf2();
+            //p2.powerOf2();
 
-            HarmonicNumber hn = new HarmonicNumber();
-            hn.harmonicNumber();
+            // HarmonicNumber hn = new HarmonicNumber();
+            // hn.harmonicNumber();
+
+            PrimeFactors Pf = new PrimeFactors();
+            Pf.PrimeFact();
         }
     }
 }
