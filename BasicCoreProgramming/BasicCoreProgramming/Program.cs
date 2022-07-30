@@ -24,8 +24,11 @@ namespace BasicCoreProgramming
             //QuotientRem qr = new QuotientRem();
             // qr.QuotRem();
 
-            Swap2Numbers Swap = new Swap2Numbers();
-            Swap.swap2Numbers();
+          //Swap2Numbers Swap = new Swap2Numbers();
+          //Swap.swap2Numbers();
+
+            EvenOdd evenOdd = new EvenOdd();
+            evenOdd.EvenOrOdd();
         }
     }
 }
