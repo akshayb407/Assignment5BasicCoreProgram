@@ -27,8 +27,11 @@ namespace BasicCoreProgramming
           //Swap2Numbers Swap = new Swap2Numbers();
           //Swap.swap2Numbers();
 
-            EvenOdd evenOdd = new EvenOdd();
-            evenOdd.EvenOrOdd();
+         // EvenOdd evenOdd = new EvenOdd();
+         // evenOdd.EvenOrOdd();
+
+            VowelConsonant vc = new VowelConsonant();
+            vc.VowelOrConsonant('x');
         }
     }
 }
