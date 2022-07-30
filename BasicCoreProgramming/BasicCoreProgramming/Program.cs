@@ -30,8 +30,12 @@ namespace BasicCoreProgramming
          // EvenOdd evenOdd = new EvenOdd();
          // evenOdd.EvenOrOdd();
 
-            VowelConsonant vc = new VowelConsonant();
-            vc.VowelOrConsonant('x');
+         // VowelConsonant vc = new VowelConsonant();
+         // vc.VowelOrConsonant('x');
+
+            LargestAmong3Numbers largestNumber = new LargestAmong3Numbers();
+            largestNumber.LargestOf3();
+
         }
     }
 }
