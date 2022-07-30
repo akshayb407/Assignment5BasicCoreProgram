@@ -21,8 +21,11 @@ namespace BasicCoreProgramming
             //PrimeFactors Pf = new PrimeFactors();
             //Pf.PrimeFact();
 
-            QuotientRem qr = new QuotientRem();
-            qr.QuotRem();
+            //QuotientRem qr = new QuotientRem();
+            // qr.QuotRem();
+
+            Swap2Numbers Swap = new Swap2Numbers();
+            Swap.swap2Numbers();
         }
     }
 }
