@@ -6,7 +6,7 @@ namespace BasicCoreProgramming
     {
         static void Main(string[] args)
         {
-            //Console.WriteLine("Welcome to Basic Core Programming!");
+         Console.WriteLine("Welcome to Basic Core Programming!");
             // CoinFlip.DisplayMessage();
 
             // LeapYear lp = new LeapYear();
@@ -18,8 +18,11 @@ namespace BasicCoreProgramming
             // HarmonicNumber hn = new HarmonicNumber();
             // hn.harmonicNumber();
 
-            PrimeFactors Pf = new PrimeFactors();
-            Pf.PrimeFact();
+            //PrimeFactors Pf = new PrimeFactors();
+            //Pf.PrimeFact();
+
+            QuotientRem qr = new QuotientRem();
+            qr.QuotRem();
         }
     }
 }

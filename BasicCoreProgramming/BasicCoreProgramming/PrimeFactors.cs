@@ -10,14 +10,15 @@ namespace BasicCoreProgramming
     {
         public void PrimeFact()
         {
+            Console.WriteLine("Prime Factors Program");
             Console.WriteLine("Please Enter a Number to get Prime Factors");
             int number = Int32.Parse(Console.ReadLine());
 
-            for (int i = 2; i < number; i++)
+            for (int i = 2; i <=number; i++)
             {
                 while (number % i == 0)
                 {
-                    Console.WriteLine(i + " ");
+                    Console.WriteLine(i +"");
                     number = number / i;
                 }
             }
